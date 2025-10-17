@@ -1,0 +1,10 @@
+^C:\USERS\VALCOMBUCHA\CPP_PROGRAMMING\OOP_LABA_1\BUILD\CMAKEFILES\C8F90BC59540919CD6958332370C57D3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ValCombucha/CPP_Programming/oop_laba_1 -BC:/Users/ValCombucha/CPP_Programming/oop_laba_1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ValCombucha/CPP_Programming/oop_laba_1/build/gtest.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
